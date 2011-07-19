@@ -35,6 +35,8 @@ GEM
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
     erubis (2.7.0)
+    execjs (1.2.0)
+      multi_json (~> 1.0)
     hike (1.2.0)
     i18n (0.6.0)
     mail (2.3.0)
@@ -85,6 +87,9 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.29)
+    uglifier (1.0.0)
+      execjs (>= 0.3.0)
+      multi_json (>= 1.0.2)
 
 PLATFORMS
   ruby
@@ -92,3 +97,4 @@ PLATFORMS
 DEPENDENCIES
   rails (= 3.1.0.rc4)
   sass-rails (~> 3.1.0.rc)
+  uglifier
